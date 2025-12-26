@@ -447,9 +447,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "my-footprints"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
