@@ -15,6 +15,7 @@
 *~
 _autosave-*
 *.tmp
+*.zip
 *-save.pro
 *-save.kicad_pcb
 *-cache.lib
