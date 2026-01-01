@@ -4189,16 +4189,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 157.48) (xy 119.38 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cb2e812-5753-49fa-8fda-9b0208eafd08")
-	)
-	(wire
-		(pts
 			(xy 266.7 114.3) (xy 266.7 121.92)
 		)
 		(stroke
@@ -4429,7 +4419,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 157.48) (xy 106.68 157.48)
+			(xy 104.14 157.48) (xy 119.38 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6005,74 +5995,6 @@
 			(project "wled"
 				(path "/859775a4-a02c-4bf3-9b8b-fe3e9fc7e226"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 110.49 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55a824a3-2496-4275-9bf4-454e5587da12")
-		(property "Reference" "R3"
-			(at 110.49 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 110.49 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 110.49 159.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd906440-65c8-4b60-9ff7-454aeee3ef2e")
-		)
-		(pin "2"
-			(uuid "e5e71fa6-9a35-4d11-9c02-aa1935afd7e2")
-		)
-		(instances
-			(project "wled"
-				(path "/859775a4-a02c-4bf3-9b8b-fe3e9fc7e226"
-					(reference "R3")
 					(unit 1)
 				)
 			)
